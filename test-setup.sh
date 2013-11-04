@@ -3,6 +3,8 @@ CHREPO="https://github.com/haskell-distributed"
 DEPS="distributed-process\
 	distributed-process-platform\
 	network-transport\
+	distributed-static\
+	rank1dynamic\
 	network-transport-tcp"
 
 echo 'cloning deps into ./deps'
